@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(31, 31, 31);
+}
+
+.pageTitle {
+    position: relative;
+    left: 285px;
+    top: 50px;
+}
+.disclaimer {
+    color: white;
+    position: relative;
+    left: 385px;
+    top: 50px;
+}
+.rockContainer {
+    height: auto;
+    width: 600px;
+    position: absolute;
+    left: 5%;
+    top: 200px;
+    pointer-events: none;
+}
+.rocks {
+    position: relative;
+    height: 100px;
+    width: 500px;
+    left: 50px;
+    outline: thin rgb(80, 80, 80) solid;
+    font-size: large;
+    pointer-events: all;
+}
+.rockText {
+    position: relative;
+    top: 10px;
+    color: white;
+    pointer-events: none;
+    text-align: center;
+}
+.rockImg {
+    position: relative;
+    height: 70px;
+    left: 185px;
+    width: auto;
+    pointer-events: none;
+}
+
+.nextContainer {
+    height: auto;
+    width: 600px;
+    /* outline: thin red solid; */
+    position: absolute;
+    left: 45%;
+    top: 200px;
+}
+.hidden {
+    visibility: hidden;
+}
+.selected {
+    outline: thin white solid;
+}
+
+.containerHeader {
+    position: relative;
+    color: white;
+    left: 50px;
+}
