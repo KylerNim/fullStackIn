@@ -4,11 +4,12 @@ const app = express();
 
 import pg from 'pg';
 const { Pool } = pg;
+
+import 'dotenv/config';
+const databaseURL = process.env.DATABASE_URL;
+
 const db = new Pool({
-    user: 'kylerlacer',
-    database: 'rock_collection',
-    password: '1234',
-    port: 5432
+    connectionString: databaseURL,
 });
 await db.connect();
 
